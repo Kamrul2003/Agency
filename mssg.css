@@ -1,0 +1,78 @@
+
+{
+  margin: 0;
+  padding: 0
+  box-sizing: border-box;
+  font-family: "popping",Sans-Serif;
+}
+
+ body {
+   position: center;
+  min-height: 100vh;
+  background-color: #fff;
+ }
+ h1 {
+   
+  text-align: center;
+  font-size: 1.7cm;
+  color: #800;
+  top: -40%;
+ }
+ 
+ b {
+   align-items: center;
+  text-align: center;
+  left: 15%;  
+  top: 50%;
+  font-size: 0.7cm;
+  color: #0f0;
+  top: -40%;
+ }
+ 
+p1 {
+   padding: 10px 30px;
+   border: none;
+   outline: none;
+   color: #fff;
+   font-size: 3cm;
+   cursor: pointer;
+   position: relative;
+   z-index: 0;
+   border-radius: 12px;
+}
+p1::after {
+   content: " ";
+   z-index: -1;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   left: 0;
+   top: 0;
+   border-radius: 10px;
+}
+
+/* glow */
+p1::before {
+   content: " ";
+   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, 
+   #00ffff, #0028ff, #ff00c8, #ff0000, green);
+   position: absolute;
+   top: -2px;
+   left: -2px;
+   background-size: 600%;
+   z-index: -1;
+   width: calc(100% + 4px);
+   height: calc(100% + 4px);
+   filter: blur(1px);
+   animation: glowing 40s linear infinite;
+   transition: opacity .3s ease-in-out;
+   border-radius: 10px;
+   opacity: 1;
+}
+
+@keyframes glowing {
+   0% {background-position: 0 0;}
+   50% {background-position: 400% 0;}
+   100% {background-position: 0 0;}
+}

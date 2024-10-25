@@ -1,0 +1,162 @@
+
+{
+  margin: 0;
+  padding: 0
+  box-sizing: border-box;
+  font-family: "popping",Sans-Serif;
+}
+body{
+  background-image: url('Body.png');
+  background-size: cover;
+  background-position: center;
+  font-family: Sans-Serif;
+}
+
+p4 {
+  position: absolute;
+  left:85%;
+}
+
+h2 {
+  color: black;
+}
+
+button1 {
+  position: absolute;
+  font-size: 1cm;
+  height: 1.1cm;
+  background: red;
+  color: white;
+  border-radius: 7px;
+  padding: 2px;
+  font-family: Arial;
+  left:2%;
+}
+  
+.btn-top {
+  position: fixed;
+}
+p3{
+  color: white;
+  text-underline: none;
+  text-spacing-trim:5px;
+}
+.btn-1 {
+  color: red;
+}
+p29{
+  color: #0f0;
+  background-color: red;
+}
+.select{
+  background-color: #fff;
+  color: red;
+}
+
+.pm{
+  font-size: 20px;
+  color: yellow;
+}
+.my-nu{
+  position: relative;
+  color: #ce00f4;
+  background-color: #0f0;
+ right: 2%;
+  font-size: 0.8cm;
+}
+
+p1{
+  position: relative;
+  left: 1%;
+  color: GreenYellow;
+  font-size: 0.6cm;
+}
+ .bg{
+ background:#663399;
+ border-radius: 10px;
+}
+.write{
+  position: relative;
+ 
+  left: 4%;
+  font-size: 0.6cm;
+  width: 90%;
+  height: 1cm;
+}
+.write::after {
+  position: absolute;
+  background-color: blue;
+  color: red;
+}
+.write::befor {
+  position: absolute;
+   background-color: #fff;
+   
+}
+button{
+  position: absolute;
+  font-size: 1cm;
+  height: 1.4cm;
+  width: 6cm;
+  background: blue;
+  color: white;
+  border-radius: 5px;
+  font-family: Arial;
+  left:20%;
+  
+}
+
+p2{
+  color: white;
+  text-underline: none;
+  text-spacing-trim:5px;
+}
+.btn{
+  color: blue;
+}
+
+/* glow */
+.glowing::before {
+   content: " ";
+   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, 
+   #00ffff, #0028ff, #ff00c8, #ff0000, green);
+   position: absolute;
+   top: -3px;
+   left: -3px;
+   background-size: 600%;
+   z-index: -1;
+   width: calc(100% + 6px);
+   height: calc(100% + 6px);
+   filter: blur(1px);
+   animation: glowing 2s linear infinite;
+   transition: opacity .3s ease-in-out;
+   border-radius: 5px;
+   opacity: 1;
+}
+
+@keyframes glowing {
+   0% {background-position: 0 0;}
+   50% {background-position: 400% 0;}
+   100% {background-position: 0 0;}
+}
+copy {
+  color: green;
+  font-size: 0.8cm;
+}
+h1 {
+  color: #5abfff;
+  background: #90df;
+}
+span {
+background-color:#90f; font-size: 30px;
+    color: #fff; position: relative;}
+.box {
+  position: left;
+  font-size: 0.5cm;
+  padding: 1px;
+  background-color: yellow;
+  color: green;
+  width: cm;
+  height: cm;
+ }
+ 
