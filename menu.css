@@ -161,7 +161,7 @@ background-color:#90f; font-size: 30px;
  }
 
 p11 {
-  
+  bottom: 15;
    padding: 5px 0px;
    border: none;
    outline: none;
@@ -204,7 +204,7 @@ p11::before {
 }
 
 p12 {
-  
+  bottom: 2;
    padding: 0px 5px;
    border: none;
    outline: none;
