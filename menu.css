@@ -203,7 +203,7 @@ p11::before {
    opacity: 1;
 }
 
-p12 {
+#p12 {
   
    padding: 0px 5px;
    border: none;
@@ -215,7 +215,7 @@ p12 {
    z-index: 0;
    border-radius: 12px;
 }
-p12::after {
+#p12::after {
    content: " ";
    z-index: -1;
    position: absolute;
@@ -228,7 +228,7 @@ p12::after {
 }
 
 /*..glow */
-p12::before {
+#p12::before {
    content: " ";
    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, 
    #00ffff, #0028ff, #ff00c8, #ff0000, #90f);
