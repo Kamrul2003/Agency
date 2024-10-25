@@ -159,4 +159,92 @@ background-color:#90f; font-size: 30px;
   width: cm;
   height: cm;
  }
+
+p11 {
+  
+   padding: 5px 0px;
+   border: none;
+   outline: none;
+   color: #fff;
+   font-size: 0.4cm;
+   cursor: pointer;
+   position: relative;
+   z-index: 0;
+   border-radius: 12px;
+}
+p11::after {
+   content: " ";
+   z-index: -1;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   left: 0;
+   top: 0;
+   border-radius: 10px;
+}
+
+/* glow */
+p11::before {
+   content: " ";
+   background: linear-gradient(45deg,#ff0000, #ff7300, #fffb00, #48ff00, 
+   #00ffff, #0028ff, #ff00c8, #ff0000, #90f);
+   position: absolute;
+   top: -2px;
+   left: -2px;
+   background-size: 600%;
+   z-index: -1;
+   width: calc(100% + 1px);
+   height: calc(100% + 4px);
+   filter: blur(8px);
+   animation: glowing 10s linear infinite;
+   transition: opacity .3s ease-in-out;
+   border-radius: 10px;
+   opacity: 1;
+}
+
+p12 {
+  
+   padding: 0px 5px;
+   border: none;
+   outline: none;
+   color: #fff;
+   font-size: 0.4cm;
+   cursor: pointer;
+   position: relative;
+   z-index: 0;
+   border-radius: 12px;
+}
+p12::after {
+   content: " ";
+   z-index: -1;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   left: 0;
+   top: 0;
+   border-radius: 10px;
+}
+
+/*..glow */
+p12::before {
+   content: " ";
+   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, 
+   #00ffff, #0028ff, #ff00c8, #ff0000, #90f);
+   position: absolute;
+   top: -2px;
+   left: -2px;
+   background-size: 600%;
+   z-index: -1;
+   width: calc(100% + 1px);
+   height: calc(100% + 4px);
+   filter: blur(8px);
+   animation: glowing 10s linear infinite;
+   transition: opacity .3s ease-in-out;
+   border-radius: 10px;
+   opacity: 1;
+}
+
+
  
