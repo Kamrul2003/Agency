@@ -38,7 +38,9 @@ p {
   background-color: black;
 }
 .top {
- 
+     background-image: url(logo-i.jpg) ;
+     background-size:cover;
+     position: fixed;
      left: 100%;
      top: 0%;
     height: 60px;
