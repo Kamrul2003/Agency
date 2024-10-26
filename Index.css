@@ -18,7 +18,9 @@ iframe {
   top: 65px;
 }
 p {
-  position:fixed ;
+  background-image: url(logo-i.jpg) ;
+  background-size:cover;
+  position: fixed;
   width: 100%;
   height:66px;
   margin-top: 0;
@@ -38,9 +40,7 @@ p {
   background-color: black;
 }
 .top {
-     background-image: url(logo-i.jpg) ;
-     background-size:cover;
-     position: fixed;
+
      left: 100%;
      top: 0%;
     height: 60px;
