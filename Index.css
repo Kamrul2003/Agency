@@ -49,8 +49,7 @@ p {
     align-items: center;
 }
 .top .menu-btn:hover {
-   background: linear-gradient(-45deg, #ff0000, #ff7300, #fffb00, #48ff00, 
-   #00ffff, #0028ff, #ff00c8, #ff0000, green);
+   background: linear-gradient(-45deg, #ff0000, #ff7300,) ;
   color: #fff;
 }
 .top .menu-btn {
@@ -59,8 +58,7 @@ p {
    top: 3px;
     outline: none;
     border: none;
-     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, 
-   #00ffff, #0028ff, #ff00c8, #ff0000, green);
+     background: linear-gradient(45deg, #ff0000, #ff7300) ;
     height: 60px;
     width: 60px;
     font-size: 35px;
