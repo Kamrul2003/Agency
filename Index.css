@@ -33,7 +33,7 @@ p {
   left: 5px;
    top: 3px;
   padding: 2px 3px;
-  color: #5600f5d6;
+  color: #0f0;
   font-size: 0.7cm;
   background-color: black;
 }
@@ -67,7 +67,7 @@ p {
     padding: 2px 2px;
     border: 1px solid red;
     border-radius: 3px;
-    color: blue;
+    color: #0f0;
     cursor: pointer;
 }
 
