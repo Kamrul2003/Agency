@@ -8,25 +8,39 @@
     <title> user signup Page </title>
     <link rel="stylesheet" type="text/css" href="Verify-user-id.css"/>
   </head> 
-  <body>
-    <form action="   "
-    class="Verify-id" method="POST">
-      <h1 style="color:#fff;">Verify yor ID</h1>
+  <body1 style="font-size:13px; color:red;">
+    <h1>ভেরিফাই নির্দেশনা।</h1>
+  1. আপনি যে নাম দিয়ে নিবন্ধন করেছেন তা প্রধান করুন।</br>
+  2. আপনি যে ই-মেল দিয়ে নিবন্ধন করেছেন তা প্রধান করুন।</br>
+  3. আপনি যার মাধ্যমে নিবন্ধন করেছেন তার আইডি কোড প্রধান করুন।</br>
+  4. আপনার পেমেন্ট মেথড বিকাশ,রকেট, নগদ কোনটি তা প্রধান করুন।</br>
+  5. আপনি যে নাম্বার থেকে পেমেন্ট করেছেন তা প্রধান করুন।</br>
+  6. আপনার পেমেন্ট ট্রানজেকশন আইডি দিন।</br>
+  <body1>
+    
+  </body>
+    <form action="https://script.google.com/macros/s/AKfycbzCRwrRMZZ7cLvjiwdbRUfQIS1iojapqy_CumR_I3lWfpGGr3KaTs4zLTJJXuU4PUFxFg/exec" class="Verify-id" method="POST">
+      <h1 style="color:#fff;">Verify your account</h1>
       <p style="color:red; font-size:20px;">Verify with your real information</p>
       </br></br>
-      <input type="text" name="user_name"class="user_name" id="input" placeholder="Username" required>
-      <input type="email" name="user_email"class="user_email" id="input" placeholder="Email address" required>
-      <input type="number" name="user_ref_code"class="user_ref_code" id="input" placeholder="Referel ID-code" required>
-      
-      <select class="select" required>
-        <option value=""/>Select payment method</option>
-    <option value=""/>Bkash</option>
-      <option value=""/>Nagad</option>
-      <option value=""/>Rocket</option>
+      1. Enter user name.
+      <input type="text" name="name"class="name" id="input" placeholder="Username" required>
+      2. Enter user email.
+      <input type="email" name="email"class="email" id="input" placeholder="Email address" required>
+      3. Enter referel ID code.
+      <input type="text" name="rflid_code"class="rflid_code" id="input" placeholder="Referel ID-code" required>
+      4. Select your paymen method.<br>
+      <select name="pmnt_mthd" class="pmnt_mthd"required>
+        <option value="pmnt_mthd"/>Select payment method</option>
+    <option value="BKASH Account"/>BKASH Account</option>
+      <option value="ROCKET Account"/>ROCKET Account</option>
+      <option value="NAGAD Account"/>NAGAD Account</option>
      </Select>
-      
-      <input type="number" name="user_number"class="user_number" id="input" placeholder="Phone number" required>
-      <input type="text" name="Transaction_id"class="Transactionfid" id="input" placeholder="Transaction ID" required>
+   <br>
+      5. Enter payment number.
+      <input type="number" name="pmnt_nmbr"class="pmnt_nmbr" id="input" placeholder="Payment number" required>
+      6. Enter payment trnx ID.
+      <input type="text" name="trnx_id"class="trnx-id" id="input" placeholder="Transaction ID" required>
       </br></br>
       <button type="submit">Verify Send</button>
     <br>
