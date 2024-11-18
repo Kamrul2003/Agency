@@ -7,6 +7,21 @@ select {
   border-radius: 8px;
 }
 
+.num {
+  position: space-between;
+  color: blue;
+  b {
+    margin-left: 5%;
+    font-size: 35px;
+  }
+  s {
+    color: transparent;
+  }n {
+    color: green;
+    margin-left: 5%;
+    font-size: 30px;
+  }
+}
   a {
     text-decoration: none;
   }
