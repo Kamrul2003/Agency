@@ -24,7 +24,7 @@ body {
   
 }
 .user-page {
-  position: fixed;
+  position: center;
   justify-content: center;
   align-items: content;
   margin-top: 60px;
